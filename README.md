@@ -9,7 +9,7 @@ Cascadia is a tile-laying strategy game where players build habitats and place w
 Features
 🎮 Local hotseat multiplayer (2–4 players)
 🌐 Network multiplayer via BGW-Net
-🤖 AI bots — random and tournament-level difficulty
+🤖 AI bots, random and tournament-level difficulty
 ↩️ Undo/Redo with full history persistence
 💾 Save & Load with complete game state serialization
 🔷 Hex-grid tile placement with rotation support
@@ -23,6 +23,8 @@ The project follows a strict 3-layer architecture:
 Entity layer — pure data classes (Game, Player, HabitatTile, WildlifeToken, etc.)
 Service layer — all game logic (GameService, UserActionService, BotService, NetworkService)
 GUI layer — all scenes and UI components built with BGW
+
+
 Tech Stack
 Language: Kotlin
 Framework: BoardGameWork (BGW)
